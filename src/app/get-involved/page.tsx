@@ -2,21 +2,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { 
-  Users, 
-  GraduationCap, 
-  BookOpen, 
-  Heart, 
-  Building2, 
-  Landmark, 
-  Microscope, 
-  Camera, 
+import {
+  Users,
+  GraduationCap,
+  BookOpen,
+  Heart,
+  Building2,
+  Landmark,
+  Microscope,
+  Camera,
   Plane,
-  ArrowRight,
-  Sprout,
-  DollarSign,
-  FileText,
-  Globe
+  ArrowRight
 } from "lucide-react";
 
 /**
@@ -271,7 +267,7 @@ export default function GetInvolvedPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20" style={{ backgroundColor: colors.navy }}>
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ 
+          <div className="absolute inset-0" style={{
             backgroundImage: 'url("/images/home-page-main-image.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
@@ -301,8 +297,8 @@ export default function GetInvolvedPage() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="mx-auto mt-4 max-w-3xl text-base font-medium text-white/90 sm:text-lg"
             >
-              Positive Development™ thrives when everyone brings their unique strengths to the table. 
-              Because PD is designed as a self-reinforcing ecosystem, every partner — from local farmer 
+              Positive Development™ thrives when everyone brings their unique strengths to the table.
+              Because PD is designed as a self-reinforcing ecosystem, every partner — from local farmer
               to global foundation — plays a vital and visible role.
             </motion.p>
           </div>
@@ -337,11 +333,11 @@ export default function GetInvolvedPage() {
       {/* Call to Action */}
       <section className="relative py-20">
         <div className="absolute inset-0">
-          <Image 
-            src="/images/Lake-Malawi-at-Dusk.jpg" 
-            alt="Lake Malawi at Dusk" 
-            fill 
-            className="object-cover" 
+          <Image
+            src="/images/Lake-Malawi-at-Dusk.jpg"
+            alt="Lake Malawi at Dusk"
+            fill
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-black/70" />
         </div>
@@ -362,7 +358,7 @@ export default function GetInvolvedPage() {
               transition={{ delay: 0.15 }}
               className="mx-auto mt-6 max-w-3xl text-lg font-medium sm:text-xl"
             >
-              Whether you teach, invest, study, film, farm or simply believe in doing more good — 
+              Whether you teach, invest, study, film, farm or simply believe in doing more good —
               the Lake Malawi Living Lab welcomes you.
             </motion.p>
             <motion.p
@@ -372,7 +368,7 @@ export default function GetInvolvedPage() {
               transition={{ delay: 0.3 }}
               className="mx-auto mt-4 max-w-2xl text-xl font-bold sm:text-2xl"
             >
-              Together, we are proving that learning can be the world's most regenerative resource.
+              Together, we are proving that learning can be the world&apos;s most regenerative resource.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
