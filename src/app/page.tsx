@@ -68,8 +68,8 @@ export default function Page() {
           <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
             <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="#about">About PD</Link>
             <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="#about">Lake Malawi PD Corridor</Link>
-            <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="#media">Media</Link>
-            <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="#involved">Get Involved</Link>
+            <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="/media">Media</Link>
+            <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="/get-involved">Get Involved</Link>
             <Link className="text-sm hover:opacity-80 font-bold" style={{ color: colors.navy }} href="#contact">Contact</Link>
           </nav>
 
@@ -131,7 +131,7 @@ export default function Page() {
               className="mt-8 flex flex-wrap items-center justify-center gap-4"
             >
               <OutlineButton href="#about"><CirclePlay className="h-5 w-5" /> Watch 60-Second Video</OutlineButton>
-              <PrimaryButton href="#involved">Get Involved</PrimaryButton>
+              <PrimaryButton href="/get-involved">Get Involved</PrimaryButton>
             </motion.div>
           </div>
         </Container>
@@ -185,15 +185,15 @@ export default function Page() {
                 eco-tourism and community-led conservation so that waste becomes wealth, ecosystems recover and communities thrive
               </p>
               <div className="mt-6">
-                <PrimaryButton href="#corridor">Get Involved</PrimaryButton>
+                <PrimaryButton href="/get-involved">Get Involved</PrimaryButton>
               </div>
             </div>
 
             <div className="mx-auto max-w-4xl px-4 text-center">
               <h2 className="text-2xl font-bold mb-6">Watch the 60s Introduction</h2>
-              
+
               <div className="relative aspect-video overflow-hidden rounded-2xl shadow-lg">
-                <video 
+                <video
                   controls
                   poster="/images/what-this-is.jpg"  // optional preview image
                   className="h-full w-full object-cover"
@@ -263,13 +263,13 @@ export default function Page() {
         <Container>
           <div className="relative flex min-h-[50vh] flex-col items-center justify-center py-16 text-center text-white">
             <h2 className="max-w-4xl text-2xl font-bold sm:text-3xl md:text-4xl">
-              Only one country can be first. 
+              Only one country can be first.
             </h2>
             <h2 className="mt-4 max-w-4xl text-2xl font-bold sm:text-3xl md:text-4xl">
               Let&apos;s make Malawi the world&apos;s first Positive Development™ Corridor
             </h2>
             <div className="mt-7 flex flex-wrap items-center justify-center gap-4">
-              <PrimaryButton href="#involved">Get Involved</PrimaryButton>
+              <PrimaryButton href="/get-involved">Get Involved</PrimaryButton>
               <OutlineButton href="#contact">Contact Us</OutlineButton>
             </div>
           </div>
@@ -317,8 +317,8 @@ export default function Page() {
             <nav aria-label="Footer" className="grid grid-cols-2 gap-3 text-sm md:grid-cols-1">
               <Link className="hover:underline" href="#about">About PD</Link>
               <Link className="hover:underline" href="#why">Corridor</Link>
-              <Link className="hover:underline" href="#media">Media</Link>
-              <Link className="hover:underline" href="#involved">Get Involved</Link>
+              <Link className="hover:underline" href="/media">Media</Link>
+              <Link className="hover:underline" href="/get-involved">Get Involved</Link>
               <Link className="hover:underline" href="#contact">Contact</Link>
             </nav>
             <div className="grid content-start gap-4">
